@@ -6,7 +6,7 @@
 
 .form-number {
     width: 400px;
-    height: 380px;
+    height: 410px;
     background: #24303c;
     padding: 30px;
     margin: auto;
@@ -24,7 +24,7 @@
     margin-bottom: 20px;
 }
 
-.form-number #controls, #num {
+.form-number #controls1, #controls2, #num {
     width: 100%;
     background: #24303c;
     padding: 10px;
@@ -35,16 +35,19 @@
     text-align: center;
 }
 
-.form-number #iterar, #borrar {
+.form-number #iterar, #borrar, #calcular {
     width: 100%;
     background: #1f53c5;
     border: none;
     padding: 12px;
-    color: white;
+    color: white ;
     margin: 16px 0;
     border-radius: 9px;
     font-size: 16px;
 } 
+.form-number #controls1, #controls2, :nth-child(1) {
+    color: white;
+}
 
 ::placeholder {
     color: lightgrey;
