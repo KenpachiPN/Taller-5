@@ -1,0 +1,52 @@
+* {
+    font-family: 'Oswald', sans-serif;
+    background: #24303c;
+  
+}
+
+.form-number {
+    width: 400px;
+    height: 380px;
+    background: #24303c;
+    padding: 30px;
+    margin: auto;
+    margin-top: 170px;
+    border-radius: 12px;
+    box-shadow: 25px 20px 10px #000;
+    border: medium ;
+    color: white;
+}
+
+.form-number h4 {
+    background-color: #24303c;
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.form-number #controls, #num {
+    width: 100%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 9px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-size: 18px;
+    text-align: center;
+}
+
+.form-number #iterar, #borrar {
+    width: 100%;
+    background: #1f53c5;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    border-radius: 9px;
+    font-size: 16px;
+} 
+
+::placeholder {
+    color: lightgrey;
+    text-align: center;
+}
